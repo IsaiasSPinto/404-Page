@@ -10,6 +10,14 @@
     margin-left: 2rem;
 }
 
+.continer-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -18,7 +26,6 @@
     padding: 0 80px;
     width: 100%;
     margin: 0 auto;
-    height: 85vh;
 }
 
 .content {     
@@ -111,7 +118,4 @@
         height: 100%;        
     }
 
-    .footer {
-        margin-top: 20px;
-    }
 }
